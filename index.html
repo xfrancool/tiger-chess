@@ -5,8 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tigerchess</title>
-    <link rel="shortcut icon" href="img/logo.png" />
+    <link rel="shortcut icon" href="img/logo1.png" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nunito&family=Open+Sans&family=Roboto+Mono&family=Secular+One&family=Square+Peg&family=Titillium+Web:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </head>
   <body>
     <div class="container">
@@ -22,30 +34,31 @@
             <li>
               <a class="dropdown-arrow" href="#">Grupos</a>
               <ul class="sub-menus">
-                <li><a href="#">Grupo 1</a></li>
-                <li><a href="#">Grupo 2</a></li>
-                <li><a href="#">Grupo 3</a></li>
+                <li><a href="#grupo1">Tiger 1</a></li>
+                <li><a href="#grupo2">Tiger 2</a></li>
+                <li><a href="#grupo3">Tiger 3</a></li>
               </ul>
             </li>
-            <li><a href="#">Acerca de nosotros</a></li>
+
             <li>
               <a class="dropdown-arrow" href="#">Materiales</a>
               <ul class="sub-menus">
-                <li><a href="#">Videos</a></li>
+                <li><a href="video.html">Videos</a></li>
                 <li><a href="#">Conceptos iniciales</a></li>
-                <li><a href="#">Juego de finales</a></li>
+                <li><a href="finales.html">Juego de finales</a></li>
               </ul>
             </li>
+            <li><a href="#">Acerca de nosotros</a></li>
             <li><a href="#">Contacto</a></li>
           </ul>
         </nav>
       </div>
       <div class="aside">
         <h1>Tigerchess</h1>
-        <img src="img/logo1.jpg" class="imglogo" alt="" /> <br />
-        <img src="img/letraszoom.png" class="letraszoom" alt="" />
+        <img src="img/logo4.png" class="imglogo" alt="" /> <br />
+        <!--  <img src="img/letraszoom.png" class="letraszoom" alt="" /> -->
         <div class="grupo">
-          <div class="">
+          <div class="" id="grupo1">
             <h2>
               Tigercitos 1
               <a
@@ -63,10 +76,10 @@
 
             <p class="horarios">
               Lunes y Miercoles <br />
-              19hs a 20:30hs
+              17hs a 18:30hs (México)
             </p>
           </div>
-          <div class="">
+          <div class="" id="grupo2">
             <h2>
               Tigercitos 2
               <a
@@ -81,10 +94,10 @@
             </ul>
             <p class="horarios">
               Martes y Jueves <br />
-              18hs a 19hs
+              16hs a 17hs (México)
             </p>
           </div>
-          <div class="">
+          <div class="" id="grupo3">
             <h2>
               Tigercitos 3
               <a
@@ -99,10 +112,19 @@
             </ul>
             <p class="horarios">
               Martes y Jueves <br />
-              19hs a 20hs
+              17hs a 18hs (México)
             </p>
           </div>
         </div>
+        <button
+          onclick="topFunction()"
+          id="myBtn"
+          title="Go to top"
+          class="top"
+        >
+          <ion-icon name="caret-up-circle-outline"></ion-icon>
+        </button>
+        <img src="img/intrucion.png" alt="" class="instructivo" />
       </div>
 
       <div class="footer">
