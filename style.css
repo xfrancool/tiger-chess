@@ -23,7 +23,7 @@ body {
 }
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 0.2fr 13fr 0.1fr;
   gap: 25px 0px;
 
@@ -280,6 +280,9 @@ iframe {
   border-radius: 20px;
   line-height: 22px;
 }
+#textfinal {
+  margin-bottom: 30px;
+}
 .parrafocard {
   text-align: center;
 }
@@ -322,7 +325,7 @@ a {
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.1fr 9fr 0.1fr;
+    grid-template-rows: 0.1fr 12fr 0.1fr;
     gap: 10px 0px;
 
     grid-auto-flow: row;
