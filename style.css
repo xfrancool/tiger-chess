@@ -189,7 +189,12 @@ body {
   border-radius: 85px;
 }
 h1 {
-  font-size: 50px;
+  font-size: 36px;
+  color: rgba(241, 235, 235, 0.925);
+  margin-bottom: 20px;
+}
+#tiger {
+  font-size: 55px;
   color: rgba(241, 235, 235, 0.925);
   margin-bottom: 20px;
 }
@@ -353,5 +358,7 @@ a {
   }
   .textcard {
     width: 80%;
+  }
+  h1 {
   }
 }
